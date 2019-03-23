@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to CRICKET QUIZ"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1:\t\tWho was the first batsman to cross 10,000 test runs?"
+            android:textSize="24dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anil Kumble"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/q1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunil Gavaskar"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sachin Tendulkar"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don Bradman"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2:\t\tWhich pakistani Cricketer has the most run in test cricket?"
+            android:layout_marginTop="24dp"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Imran Khan"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/q2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shahid Afridi"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Injaman-Ul-Haq"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q2d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None of them"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
+            android:text="Q3:\t\tWho has the most number of runs in ODI cricket as wicket Keeper?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"><RadioButton
+            android:id="@+id/q3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.S.Dhoni"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/q3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kumar Sangakara"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adam Ghilchrist"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Johny Bairstow"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4:\t\tWhich ball is used in COUNTY cricket?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duke Ball"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/q4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SG Ball"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kookabura Ball"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cosco"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q5:\t\tWhich player has scored most number of runs in a single test match?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brian Lara"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/q5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sir Don Bradman"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sachin Tendulkar"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/q5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sir Viv Richards"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="finish"
+            android:onClick="result"/>
+    </LinearLayout>
+</ScrollView>

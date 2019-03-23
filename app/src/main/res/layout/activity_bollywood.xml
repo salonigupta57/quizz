@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to BOLLYWOOD QUIZ"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1:\t\ Which of these actors has never appeared in television advertisements?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/q1A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anil Kapoor"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <RadioButton
+            android:id="@+id/q1B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hrithik Roshan"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q1C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Govinda"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q1D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sanjay Dutt"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2:\t\tLata Mangeshkar made her debut in Hindi playback singing with the movie?"
+            android:layout_marginTop="24dp"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/q2A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barsaat "
+            android:paddingLeft="16dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <RadioButton
+            android:id="@+id/q2B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deewar "
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q2C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aap ke Sewa Main"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q2D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None of them"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
+            android:text="Q3:\t\Subhash Ghais first film as a director was?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"><RadioButton
+            android:id="@+id/q3A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vidhaata"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <RadioButton
+            android:id="@+id/q3B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karma"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q3C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pardes"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q3D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kalicharan"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4:\t\tWhat is Rajinikanth's original name?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/q4A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rama Rao Gaekwad"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <RadioButton
+            android:id="@+id/q4B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shivaji Rao Gaekwad"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q4C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shivam Rao Gaekwad"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q4D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AK Rao"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q5:\t\tWhat was Arjun Kapoor before he became an actor?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/q5A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assistant Director"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <RadioButton
+            android:id="@+id/q5B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assistant Producer"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q5C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Spot Boy"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/q5D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None Of Them"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="finish"
+            android:onClick="result1"/>
+    </LinearLayout>
+</ScrollView>

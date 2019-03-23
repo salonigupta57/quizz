@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to RIDDLE QUIZ"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1:\t\ What 8 letter word can have a letter taken away and it still makes a word.  Take another letter away and it still makes a word. Keep on doing that until you have one letter left. What is the word?"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="your answer"
+            android:autofillHints="your answer"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2:\t\tWhat has a head, a tail, is brown, and has no legs?"
+            android:layout_marginTop="24dp"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="your answer"
+            android:autofillHints="your answer"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
+            android:text="Q3:\t\What has many keys, but can't even open a single door?"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="your answer"
+            android:autofillHints="your answer"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4:\t\tWhat has six faces, But does not wear makeup. It also has twenty-one eyes, But cannot see?"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="your answer"
+            android:autofillHints="your answer"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q5:\t\tWhat runs around the whole yard without moving?"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="your answer"
+            android:autofillHints="your answer"
+            android:inputType="text"
+            android:paddingLeft="16dp"
+            android:textSize="20sp" />
+
+
+
+
+         <Button
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="finish"
+            android:onClick="Result2"/>
+    </LinearLayout>
+</ScrollView>

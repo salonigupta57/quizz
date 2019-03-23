@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHECK YOUR GENERAL KNOWLEDGE"
+            android:textSize="29sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1:\t\tFor maximum how many days did kaiga atomic power station operated without interuption?"
+            android:textSize="24dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="941"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/Q1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="940"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="962"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q1d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="961"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2:\t\tWhich of the following is NOT related to the World Trade Organization (WTO)?"
+            android:layout_marginTop="24dp"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="General Agreement on Trade and Services"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/Q2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Multifiber Agreement"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agreement on Agriculture"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q2d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Multilateral Agreement on Investment"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"
+            android:text="Q3:\t\tWho was the first Indian in independent India to have won a medal in an individual Olympic event ?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"><RadioButton
+            android:id="@+id/Q3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dhyanchand"
+            android:paddingLeft="16dp"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/Q3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="K D Jadhav"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prithipal Singh"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q3d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harishchandra Birajdar"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4:\t\tWhich of the following regions can be safely called the belt of Doldrums?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Equatorial region"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/Q4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub-tropical region"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polar region"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q4d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperate region"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q5:\t\How many men have walked on the moon?"
+            android:textSize="24sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/Q5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"/>
+            <RadioButton
+                android:id="@+id/Q5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+            <RadioButton
+                android:id="@+id/Q5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:paddingLeft="16dp"
+                android:textSize="20sp"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="finish"
+            android:onClick="result2"/>
+    </LinearLayout>
+</ScrollView>
